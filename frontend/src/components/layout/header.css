@@ -1,0 +1,54 @@
+.notification-dropdown {
+  position: absolute;
+  top: 100%;
+
+  right: 22%;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 400px;
+  padding: 10px;
+  z-index: 999;
+}
+
+.notification-scroll {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.notification-item.latest {
+  font-weight: bold;
+}
+
+.notification-item.oldest {
+  font-weight: bold;
+}
+.badge {
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-item {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  justify-content: flex-start;
+  border-bottom: 1px solid black;
+
+}
+
+.notification-item:hover {
+  background-color: gray;
+  padding: 10px;
+}
+hr {
+  border-color: black !important;
+  border-width: 20px !important;
+}
+
+p {
+  margin-top: 20px !important;
+
+  font-size: 14px;
+}

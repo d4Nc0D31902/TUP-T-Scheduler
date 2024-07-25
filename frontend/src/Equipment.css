@@ -1,0 +1,50 @@
+.sidebar {
+  background-color: maroon;
+  color: white;
+  padding: 10px;
+  width: 15%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  /* Adjusted margin-right to create space between sidebar and equipment cards */
+  height: 100%;
+  overflow-y: auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.sidebar h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  /* Set margin to 0 to remove space around the h3 element */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.sidebar li:hover {
+  background-color: gray;
+}
+
+/* Optionally, you can add a selected style for the active sport */
+.sidebar li.selected {
+  background-color: gray;
+}
+
+.card-text {
+  font-size: small;
+}
+
+.card-stock {
+  font-size: medium;
+}
